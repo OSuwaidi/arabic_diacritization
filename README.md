@@ -25,7 +25,7 @@ case_ending.
   will be extracted from the original text.
 - You also have to specify the text encoder and the cleaner functions.
   This work includes two text encoders: BasicArabicEncoder, ArabicEncoderWithStartSymbol.
-  Moreover, we have one cleaning function: valid_arabic_cleaners, which clean all characters except valid Arabic characters,
+  Moreover, we have one cleaning function: clean_arabic, which clean all characters except valid Arabic characters,
   which include Arabic letters, punctuations, and diacritics.
 
 # Training

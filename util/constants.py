@@ -3,8 +3,8 @@ Constants that are used by the model
 """
 HARAQAT = ["ْ", "ّ", "ٌ", "ٍ", "ِ", "ً", "َ", "ُ"]
 ARAB_CHARS = "ىعظحرسيشضق ثلصطكآماإهزءأفؤغجئدةخوبذتن"
-PUNCTUATIONS = [".", "،", ":", "؛", "-", "؟"]
-VALID_ARABIC = HARAQAT + list(ARAB_CHARS) + [".", "،", ":", "؛", "-", "؟"]
+STOPPERS = [".", "؟", "!"]
+VALID_ARABIC = HARAQAT + list(ARAB_CHARS) + STOPPERS
 BASIC_HARAQAT = {
     "َ": "Fatha  ",
     "ً": "Fathatah           ",

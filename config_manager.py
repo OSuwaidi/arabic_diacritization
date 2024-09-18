@@ -304,7 +304,7 @@ class ConfigManager:
         """Getting the class of TextEncoder from config"""
         if self.config["text_cleaner"] not in [
             "basic_cleaners",
-            "valid_arabic_cleaners",
+            "clean_arabic",
             None,
         ]:
             raise Exception(f"cleaner is not known {self.config['text_cleaner']}")
